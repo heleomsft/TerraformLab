@@ -1,5 +1,5 @@
 resource "azurerm_app_service_plan" "dev" {
-    name                = "PetroAppPlanDev"
+    name                = "HenryAppPlanDev"
     location            = var.location
     resource_group_name = var.resource_group_name
     kind                = "Linux"
@@ -32,7 +32,7 @@ resource "azurerm_app_service" "dev" {
         "DJANGO_ENV" = "production"
         "DJANGO_SUPERUSER_PASSWORD" = var.django_superuser_password
         "DJANGO_SUPERUSER_USERNAME" = "rooter4"
-        "DJANGO_SUPERUSER_EMAIL" = "my@microsoft.com"
+        "DJANGO_SUPERUSER_EMAIL" = "my@myemail.com"
         "POST_BUILD_SCRIPT_PATH" = "Procfile.sh"
     }   
 }

@@ -27,7 +27,7 @@ variable "app_service_name" {
 
 variable db_name {
   type    = string
-  default = "petrodbdev"
+  default = "henrymydb"
 }
 
 variable django_superuser_password {

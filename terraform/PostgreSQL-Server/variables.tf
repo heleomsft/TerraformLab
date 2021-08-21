@@ -21,5 +21,5 @@ variable resource_group_name{
 
 variable db_name {
   type    = string
-  default = "petrodbdev"
+  default = "henrymydb"
 }
