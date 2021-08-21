@@ -41,8 +41,3 @@ module "PostgreSQLServer"{
   server_name = var.server_name
   db_name = var.db_name
 }
-
-# Set the terraform backend
-terraform {
-  backend "azurerm" {} #Backend variables are initialized through the template
-}
