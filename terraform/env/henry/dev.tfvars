@@ -1,5 +1,5 @@
 location="Central US"
 resource_group_name="Dev"
 app_service_name="devmyappplanhenry"
-aministrator_login="admin"
+administrator_login="admin"
 server_name="devmyserverhenry"
