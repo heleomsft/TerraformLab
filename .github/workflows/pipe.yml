@@ -16,6 +16,9 @@ jobs:
 
     runs-on: ubuntu-latest
 
+    environment:
+      name: dev
+
     env:
       ARM_CLIENT_ID: ${{secrets.CLIENT_ID}}
       ARM_CLIENT_SECRET: ${{secrets.CLIENT_SECRET}}
